@@ -108,8 +108,3 @@ public class Tabeller {
 		return NyTabell;
 	}}
 		
-
-		// TODO
-		throw new UnsupportedOperationException("settSammen ikke implementert");
-	}
-}
