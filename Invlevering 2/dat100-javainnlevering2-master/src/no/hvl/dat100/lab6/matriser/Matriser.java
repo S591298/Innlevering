@@ -4,19 +4,25 @@ public class Matriser {
 
 	// a)
 	public static void skrivUt(int[][] matrise) {
-		
-		// TODO
-		throw new UnsupportedOperationException("skrivUt ikke implementert");
-	}
+		for (int[] rad : matrise) {
+			for(int x : rad) {
+				System.out.println(x + " ");
 
+			}
+			System.out.println();
+		}
+	}
 	// b)
 	public static String tilStreng(int[][] matrise) {
-
-		// TODO
-		throw new UnsupportedOperationException("tilStreng ikke implementert");
-		
+		String matrise1 = "";
+		for(int[] rad : matrise) {
+			for(int element : rad) {
+				matrise1 += Integer.toString(element) + " ";
+			}
+			matrise1 += "\n";
+		}
+		return matrise1;
 	}
-
 	// c)
 	public static int[][] skaler(int tall, int[][] matrise) {
 		
